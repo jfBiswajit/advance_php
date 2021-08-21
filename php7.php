@@ -19,7 +19,6 @@ function intSum($num): int
 $_GET['username'] ?? 'not passed';
 // ------------------------------------------------------------------------------------------------------------------
 
-
 // Use keyword
 $calculateTax = function ($quantity) use ($tax) {
   // With closures, to access variables that are outside of the context of the function you need to explicitly grant permission to the function using the use function. What it means in this case is that you're granting the function access to the $tax variable.

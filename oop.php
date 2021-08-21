@@ -83,7 +83,6 @@ class BabyGirl extends HumanFeatures implements Parents
 
 // Accessor and mutator?
 // They're just fancy terms for getters and setters.
-
 class MyClass
 {
   private $prop;
